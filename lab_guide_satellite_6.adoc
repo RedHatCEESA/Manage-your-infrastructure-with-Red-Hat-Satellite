@@ -4,8 +4,6 @@
 
 
 
-image:./images/summitlab.png[Summitlab,50,300,role="left"]
-
 == Hands on With Satellite 6
 
 :numbered:
@@ -259,7 +257,7 @@ Execute the following commands:
 ----
 
 This shows how you can use the hammer shell to run multiple hammer commands.
-The output of this hammer commands lists the availble user roles in Satellite. 
+The output of this hammer commands lists the availble user roles in Satellite.
 
 ==== Exercise: Export the subscriptions to a CSV file.
 
@@ -501,13 +499,13 @@ You can find the risks and vulnerabilities on a selected system by following:
 . Navigate to *Insights -> Inventory*
 . To the right of the rhaiclient.example.com system name, Click on *5 Actions* just below the *Status* column. (Not the *Actions* dropdown on the upper left)
 . Risks and the steps to remediate these risks will be displayed for the selected host.
-. Notice that each risk includes the impact of the risk, the liklihood that this system will hit this risk, and the total risk. Also included is the risk of performing the remediation itself.  
+. Notice that each risk includes the impact of the risk, the liklihood that this system will hit this risk, and the total risk. Also included is the risk of performing the remediation itself.
 . Close the window by clicking *X* icon once you done with analyzing the risks.
 
 === Download the Ansible playbook to remediate identified risk
 
-The next step is to remediate the identified risks on each registered client, in this case *rhaiclient.example.com*. 
-If you are not already there from the previous task, Navigate to *‘Insights’ -> Inventory* on the left navigation menu. There you will see your registered clients with number of actions under Status header. 
+The next step is to remediate the identified risks on each registered client, in this case *rhaiclient.example.com*.
+If you are not already there from the previous task, Navigate to *‘Insights’ -> Inventory* on the left navigation menu. There you will see your registered clients with number of actions under Status header.
 
 Follow the below steps to run the Ansible playbook to remediate the detected issues:
 
@@ -677,7 +675,7 @@ Note that *Version 1.0* is either published or still publishing via the *Status*
 	1. Navigate to *Hosts > All Hosts*
 	2. Click on *tomcatclient.example.com*
  	3. Click *Schedule Remote Job*
-	4. In the *Job Category* dropdown, select *Ansible Playbook* 
+	4. In the *Job Category* dropdown, select *Ansible Playbook*
   5. Click *Submit*. This will take you to the Job Invocations view.
 	6. Click *Hosts* tab
 	7. Click *tomcatclient.example.com*
@@ -738,7 +736,7 @@ Lazy Sync allows you to more quickly synchronize large repositories by not downl
 |===
 |*Download Policy*|*How it works?*
 |*Immediate*    |Traditional synchronization where rpm files are downloaded immediately. This is the only type of synchronization policy that existed prior to Satellite 6.3.
-|*On Demand*    |The initial synchronization only downloads the repository metadata.  RPM files are not downloaded until they are requested by a client.  These repositories can be published in content views and synced to capsules even if any or all of the rpms are not downloaded. This is the default option with a fresh install of Satellite 6.3. 
+|*On Demand*    |The initial synchronization only downloads the repository metadata.  RPM files are not downloaded until they are requested by a client.  These repositories can be published in content views and synced to capsules even if any or all of the rpms are not downloaded. This is the default option with a fresh install of Satellite 6.3.
 |*Background*   |Similar to On Demand. Initially, only the repository metadata is synced. After the initial synchronization is finished, Satellite will continue downloading the rpm files in the background.  Any requests for RPMs while that is happening will be synced immediately.
 |===
 
@@ -784,7 +782,7 @@ If you happened to close the page, navigate to:
 . Click the *Summit* Product
 . Click the *lazy* repository
 . Click on the *Published At* link
-.. The URL should look like this:  
+.. The URL should look like this:
 ----
 http://satellite-GUID.rhpds.opentlc.com/pulp/repos/Default_Organization/Library/custom/Summit/lazy/
 ----

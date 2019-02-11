@@ -1,3 +1,3 @@
-# Hands on with Satellite 6
+# Red Hat Satellite 6 Lab Guide
 
-[Hands on with Satellite 6](hands_on_with_satellite_6.adoc)
+[Satellite 6 Lab Guide](lab_guide_satellite_6.adoc)
