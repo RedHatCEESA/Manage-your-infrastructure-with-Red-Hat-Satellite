@@ -40,11 +40,11 @@ image:./images/sat6lab.png[]
 == Lab Details
 
 In order to facilitate a successful lab, certain information is required. Please note the following details about the environment. This information will be utilized throughout the exercises in the lab.
+
 === Lab Deployment
 
-Deployment
-
 Click on the https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn[GUID Generator Link] to generate your GUID for the lab:
+
 
 GIUD Generator
 
