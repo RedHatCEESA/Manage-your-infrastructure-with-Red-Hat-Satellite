@@ -25,11 +25,6 @@ This lab provides an overview of the Satellite product, showing core functionali
 * Managing custom templates
 * Enhancements to content management (Lazy Sync)
 
-=== Audience/Intro/Prerequisites
-
-This lab is geared towards Operators and System Administrators, those are the primary users of Satellite. No prior knowledge of Satellite is required. However, this lab focuses on upcoming features of Satellite 6.4 and a few enhancements in Satellite 6.3, so attendees who are new to Satellite will benefit from some self discovery on the product during the lab.
-
-
 == Lab Infrastructure Configuration
 
 This lab is delivered as 4 KVM boxes on a public cloud - the Satellite server, Capsule and and two Red Hat Enterprise Linux 7 clients used for various exercises in the lab, like finding and fixing risks through Red Hat Insights plugin. All content has already been synced to the Satellite server, so there will be no need to access the Red Hat Content Delivery Network (CDN) to pull down content. The host is running a virtual network called “example”. During the Lab the user may provision new machines into this private network using libvirt. The experience of using libvirt as a virtualization fabric is indicative of how Satellite 6 works when connected to Red Hat Enterprise Virtualization, VMWare, OpenStack, and EC2.
@@ -45,6 +40,20 @@ image:./images/sat6lab.png[]
 == Lab Details
 
 In order to facilitate a successful lab, certain information is required. Please note the following details about the environment. This information will be utilized throughout the exercises in the lab.
+=== Lab Deployment
+
+Deployment
+
+  Click on the GUID Generator Link to generate your GUID for the lab:
+
+GIUD Generator
+
+    Choose lab from the list: Red Hat Satellite 6.4 Lab
+
+    Enter LAB Activation Key
+
+Wiil be provided by instructor
+
 
 === Warning - Lab guide commands copy-pasting
 
