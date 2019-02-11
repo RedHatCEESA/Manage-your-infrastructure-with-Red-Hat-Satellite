@@ -44,13 +44,13 @@ In order to facilitate a successful lab, certain information is required. Please
 
 Deployment
 
-  Click on the GUID Generator Link to generate your GUID for the lab:
+Click on the [GUID Generator Link](https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn) to generate your GUID for the lab:
 
 GIUD Generator
 
-    Choose lab from the list: Red Hat Satellite 6.4 Lab
+Choose lab from the list: Red Hat Satellite 6.4 Lab
 
-    Enter LAB Activation Key
+Enter LAB Activation Key
 
 Wiil be provided by instructor
 
