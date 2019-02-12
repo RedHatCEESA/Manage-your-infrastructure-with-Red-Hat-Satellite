@@ -43,18 +43,19 @@ In order to facilitate a successful lab, certain information is required. Please
 
 === Lab Deployment
 
-*Click on the https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn[GUID Generator Link] to generate your GUID for the lab:
+.Click on the https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn[GUID Generator Link] to generate your GUID for the lab:
 
-*Choose lab from the list: Red Hat Satellite 6.4 Lab
+.Choose lab from the list: *Red Hat Satellite 6.4 Lab*
 
-*Enter LAB Activation Key (Will be provided by instructor)
+.Enter LAB *Activation Key* (Will be provided by instructor)
 
 
 === Warning - Lab guide commands copy-pasting
 
 Be wary when copy-pasting commands from this guide directly into terminal. Spaces, regular quotes can be replaced with irregular characters that cause errors when they are included in a command execution.
 
-Instance info with Public DNS is given below. One can access any of these instances via given private keys under root user. Please reach out to Lab administrator in case of any issues.
+Instance info with Public DNS is given below.
+You can access each of lab environment machines through Workstation using root user credentials. Please reach out to Lab administrator in case of any issues.
 
 `*_Note: Please replace the GUID in Satellite6 URL with the given ID. In case of any issues, please reach out to lab administrator._*`
 
@@ -62,9 +63,7 @@ Instance info with Public DNS is given below. One can access any of these instan
 |==========
 |*Instance* |*Public DNS*
 |Satellite   |satellite-GUID.rhpds.opentlc.com
-|Capsule     |capsule-GUID.rhpds.opentlc.com
-|rhaicleint  |rhaiclient-GUID.rhpds.opentlc.com
-|tomcatclient|tomcatclient-GUID.rhpds.opentlc.com
+|Workstation |workstation-GUID.rhpds.opentlc.com
 |==========
 
 
