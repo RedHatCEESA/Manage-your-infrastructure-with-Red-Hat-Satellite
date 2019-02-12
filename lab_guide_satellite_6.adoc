@@ -43,11 +43,11 @@ In order to facilitate a successful lab, certain information is required. Please
 
 === Lab Deployment
 
-.Click on the https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn[GUID Generator Link] to generate your GUID for the lab:
+* Click on the https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_jskorzyn[GUID Generator Link] to generate your GUID for the lab:
 
-.Choose lab from the list: *Red Hat Satellite 6.4 Lab*
+* Choose lab from the list: *Red Hat Satellite 6.4 Lab*
 
-.Enter LAB *Activation Key* (Will be provided by instructor)
+* Enter LAB *Activation Key* (Will be provided by instructor)
 
 
 === Warning - Lab guide commands copy-pasting
