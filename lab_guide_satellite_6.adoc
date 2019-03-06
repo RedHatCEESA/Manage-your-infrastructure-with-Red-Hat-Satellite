@@ -324,7 +324,7 @@ In a real world deployment this mechanism could be used for example by administr
 By default the RSS feed is refreshed twice a day. To force the refresh and actually see it is working, log into the Satellite over SSH and run the following command as root:
 
 ----
-# sudo foreman-rake rss:create_notifications
+# FOREMAN_RSS_LATEST_POSTS=3 foreman-rake rss:create_notifications
 ----
 
 The notification drawer should now be populated with new information. This can be easily verified by following the steps described earlier.
