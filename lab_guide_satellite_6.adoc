@@ -306,7 +306,7 @@ To see the newest items from the RSS feed, follow these steps:
 - In case there is no *Community* item, log into the Satellite over SSH and run the following command to make it appear again.
 
 ----
-FOREMAN_RSS_FORCE_REPOST=true foreman-rake rss:create_notifications
+FOREMAN_RSS_LATEST_POSTS=3 FOREMAN_RSS_FORCE_REPOST=true foreman-rake rss:create_notifications
 ----
 
 - Expand the *Community* item
