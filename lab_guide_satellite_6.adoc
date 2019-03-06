@@ -43,7 +43,7 @@ In order to facilitate a successful lab, certain information is required. Please
 
 === Lab Deployment
 
-* Click on the https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_zparys[GUID Generator Link] to generate your GUID for the lab:
+* Click on the https://www.opentlc.com/gg/gg.cgi?profile=generic_emea_sa_zparys[GUID Generator Link] to generate your GUID for the lab:
 
 * Choose lab from the list: *Red Hat Satellite 6.4 Lab*
 
